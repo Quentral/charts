@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  db-instances:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-12-29T15:12:55.429964538Z"
+    description: Database Instances for db operator
+    digest: e3e244dee0f09165fc5699cef55b77c1aa9500bf9dc7a324fd60b4a544c9a1d9
+    name: db-instances
+    urls:
+    - https://github.com/Quentral/charts/releases/download/db-instances-1.3.4/db-instances-1.3.4.tgz
+    version: 1.3.4
+  db-operator:
+  - apiVersion: v2
+    appVersion: 1.8.0
+    created: "2022-12-29T15:12:55.682601068Z"
+    description: A Database Operator
+    digest: ee95f52b4da5069d8d10aefae02fd552a7177b1c1c18eb239e60b6d3a66a0698
+    kubeVersion: '>= 1.21-prerelease'
+    name: db-operator
+    type: application
+    urls:
+    - https://github.com/Quentral/charts/releases/download/db-operator-1.4.0/db-operator-1.4.0.tgz
+    version: 1.4.0
+generated: "2022-12-29T15:12:55.682808976Z"
