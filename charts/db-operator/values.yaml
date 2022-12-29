@@ -1,9 +1,10 @@
 nameOverride: ""
 
 image:
-  repository: ghcr.io/kloeckner-i/db-operator
+  repository: quentral/db-operator
   pullPolicy: Always
   logLevel: info
+  tag: 1.8.0
 
 # imagePullSecrets:
 #   - name: myRegistrySecret

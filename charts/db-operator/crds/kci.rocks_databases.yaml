@@ -87,6 +87,8 @@ spec:
                 type: array
               instance:
                 type: string
+              password:
+                type: string
               postgres:
                 description: Postgres struct should be used to provide resource that
                   only applicable to postgres
@@ -108,11 +110,15 @@ spec:
                 additionalProperties:
                   type: string
                 type: object
+              userName:
+                type: string
             required:
             - backup
             - deletionProtected
             - instance
+            - password
             - secretName
+            - userName
             type: object
           status:
             description: DatabaseStatus defines the observed state of Database
