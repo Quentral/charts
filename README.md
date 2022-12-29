@@ -9,9 +9,9 @@ For triggering it, change the version of Chart.yaml in the chart directory and m
 
 ## Configuring helm client
 ```
-$ helm repo add kloeckneri https://kloeckner-i.github.io/charts
+$ helm repo add quentral https://quentral.github.io/charts
 ```
 Test the helm chart repository
 ```
-$ helm search repo kloeckneri
+$ helm search repo quentral
 ```
